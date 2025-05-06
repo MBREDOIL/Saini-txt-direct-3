@@ -18,7 +18,7 @@
         },
         "API_HASH": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-            "value": "a75af4285edc7747c57bb19147ca0b9b"",
+            "value": "a75af4285edc7747c57bb19147ca0b9b",
             "required": true
         },
         "BOT_TOKEN": {
