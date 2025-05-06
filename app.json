@@ -13,12 +13,12 @@
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
-            "value": "",
+            "value": "28094744",
             "required": true
         },
         "API_HASH": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-            "value": "",
+            "value": "a75af4285edc7747c57bb19147ca0b9b"",
             "required": true
         },
         "BOT_TOKEN": {
@@ -28,7 +28,7 @@
         },
         "token_cp":{
             "description": "𝘌𝘯𝘵𝘦𝘳 𝘞𝘰𝘳𝘬𝘪𝘯𝘨 𝘊𝘭𝘢𝘴𝘴𝘱𝘭𝘶𝘴 𝘛𝘰𝘬𝘦𝘯",
-            "value": "",
+            "value": "eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r",
             "required": true
         }
     },
