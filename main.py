@@ -453,7 +453,7 @@ async def txt_handler(bot: Client, m: Message):
 
 
             elif 'transcoded-videos-v2.classx.co.in' in url:
-                data = requests.get(f"https://api.masterapi.tech/get/get-hls-key?token=eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r").json()
+                data = requests.get(f"https://api.masterapi.tech/get/get-hls-key?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I").json()
                 url = f"http://api.masterapi.tech/akamai-player-v3?url={url}&hls-key={data}"
                 #url0 = f"https://dragoapi.vercel.app/video/{url}"
 
