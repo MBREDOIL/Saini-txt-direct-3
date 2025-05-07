@@ -451,6 +451,12 @@ async def txt_handler(bot: Client, m: Message):
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
+
+            elif 'transcoded-videos-v2.classx.co.in' in url:
+                data = requests.get(f"https://api.masterapi.tech/get/get-hls-key?token=eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r").json()
+                url = f"http://api.masterapi.tech/akamai-player-v3?url={url}&hls-key={data}"
+                #url0 = f"https://dragoapi.vercel.app/video/{url}"
+
             elif "classplusapp.com/drm/" in url:
                 url = 'https://dragoapi.vercel.app/classplus?link=' + url
                 mpd, keys = helper.get_mps_and_keys(url)
